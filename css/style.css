@@ -474,6 +474,10 @@ li > a:only-child:after {
     font-weight: 400;
 }
 
+.ban-buttons {
+    padding-bottom: 16px;
+}
+
 .ban-buttons a {
     background: #fff;
     padding: 11px 31px;
