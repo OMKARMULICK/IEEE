@@ -964,6 +964,7 @@ input.email {
 
 .footer_1its {
     background: #1e272e;
+    padding-bottom: 0px !important;
 }
 
 .footer_1its h3,
