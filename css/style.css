@@ -34,6 +34,7 @@ a:hover {
 
 input[type="button"],
 input[type="submit"],
+input[type="tel"],
 input[type="text"],
 input[type="email"],
 input[type="search"] {
@@ -874,6 +875,7 @@ span.decription {
 }
 
 .contact-main-info input[type="text"],
+.contact-main-info input[type="tel"],
 .contact-main-info input[type="email"] {
     width: 100%;
     color: #999;
