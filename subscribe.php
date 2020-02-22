@@ -1,0 +1,12 @@
+<?php
+
+if(isset($_POST['email']))
+{
+	$data=$_POST['email'];
+	$fp=fopen('subscribe.txt', 'a');
+	fwrite($fp, $data."\n");
+	fclose($fp);
+	header('Location: contact.html');
+}
+
+?>
