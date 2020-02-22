@@ -1827,4 +1827,74 @@ h3.tittle {
 }
 
 
+
+
+/* Responsivness */
+
+
+@media(max-width: 767px) {
+    .ac-res-img {
+        position: relative;
+        top: 180px;
+    }
+
+    .ac-res-txt {
+        position: relative;
+        top: -440px;
+    }
+}
+
+@media(max-width: 375px) {
+    .ac-res-img {
+        position: relative;
+        top: 200px;
+    }
+
+    .ac-res-txt {
+        position: relative;
+        top: -280px;
+    }
+}
+
+@media(max-width: 414px) {
+    .ac-res-img {
+        position: relative;
+        top: 200px;
+    }
+
+    .ac-res-txt {
+        position: relative;
+        top: -320px;
+    }
+}
+
+@media(max-width: 375px) {
+    .ac-res-img {
+        position: relative;
+        top: 200px;
+    }
+
+    .ac-res-txt {
+        position: relative;
+        top: -300px;
+    }
+}
+
+
+@media(max-width: 320px) {
+    .ac-res-img {
+        position: relative;
+        top: 240px;
+    }
+
+    .ac-res-txt {
+        position: relative;
+        top: -250px;
+    }
+}
+
+
+
+
+
 </style>
