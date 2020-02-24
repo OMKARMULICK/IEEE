@@ -1903,7 +1903,6 @@ h3.tittle {
 /*Home page cards*/
 
 .card{
-    background-color: white;
     margin: auto;
     left: 0;
     right: 0;
@@ -1971,7 +1970,7 @@ h3.tittle {
 }
 
 .card:hover .pic{
-    transform: scale(0.5,0.35) translateY(-650px);
+    transform: scale(0.5,0.3) translateY(-650px);
     background-size: 100% 150%;
     background-position: 0 -25px;
     border-radius: 50% !important;
