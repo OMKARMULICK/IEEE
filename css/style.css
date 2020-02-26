@@ -2122,7 +2122,7 @@ h3.tittle {
 /* MTTS Page */
 
 .main-banner-wie {
-    background: url(../images/wie.jpg)no-repeat center;
+    background: url(../images/wie_banner.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2132,3 +2132,63 @@ h3.tittle {
     min-height: 50em;
 }
 
+.main-banner-mtts {
+    background: url(../images/mtts_banner.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 50em;
+}
+
+/*wie page responsiveness*/
+@media(max-width: 767px) {
+    .ac-resp-img {
+        position: relative;
+        top: 180px;
+    }
+
+    .ac-resp-txt {
+        position: relative;
+        top: -250px;
+    }
+}
+
+@media(max-width: 375px) {
+    .ac-resp-img {
+        position: relative;
+        top: 200px;
+    }
+
+    .ac-resp-txt {
+        position: relative;
+        top: -280px;
+    }
+}
+
+@media(max-width: 469px) {
+    .ac-resp-img {
+        position: relative;
+        top: 200px;
+    }
+
+    .ac-resp-txt {
+        position: relative;
+        top: -190px;
+    }
+}
+
+
+@media(max-width: 320px) {
+    .ac-resp-img {
+        position: relative;
+        top: 240px;
+    }
+
+    .ac-resp-txt {
+        position: relative;
+        top: -250px;
+    }
+}
