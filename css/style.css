@@ -2118,3 +2118,17 @@ h3.tittle {
         transition: 0s;
     }
 }
+
+/* MTTS Page */
+
+.main-banner-mtts {
+    background: url(../images/mtts.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    position: relative;
+    min-height: 50em;
+}
+
