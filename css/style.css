@@ -2115,6 +2115,6 @@ h3.tittle {
         background-size: 100% 150%;
         background-position: 0 -25px;
         border-radius: 50% !important;
-        transition: 1s;
+        transition: 0s;
     }
 }
