@@ -2143,14 +2143,14 @@ h3.tittle {
     min-height: 50em;
 }
 
-/*wie page responsiveness*/
+/*mtts page responsiveness*/
 @media(max-width: 767px) {
     .ac-resp-img {
         position: relative;
         top: 180px; 
     }
    
-    }
+    
 
     .ac-resp-txt {
         position: relative;
@@ -2191,7 +2191,7 @@ h3.tittle {
 
     .ac-resp-txt {
         position: relative;
-        top: -250px;
+        top: -180px;
     }
 }
 
