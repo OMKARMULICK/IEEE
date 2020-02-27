@@ -2351,6 +2351,41 @@ h3.tittle {
         background-color: #949594 !important;
         transition: 1.2s;
     }
-
+}
 
 /* WIE Media*/
+@media(max-width: 767px)
+{
+    .wie-resp-img{
+        position: relative;
+        top: 250px;
+    }
+    .wie-resp-txt{
+        position: relative;
+        bottom: 325px;
+    }
+}
+
+@media(max-width: 505px)
+{
+    .wie-resp-img{
+        position: relative;
+        top: 250px;
+    }
+    .wie-resp-txt{
+        position: relative;
+        bottom: 250px;
+    }
+}
+
+@media(max-width: 361px)
+{
+    .wie-resp-img{
+        position: relative;
+        top: 250px;
+    }
+    .wie-resp-txt{
+        position: relative;
+        bottom: 200px;
+    }
+}
