@@ -2329,24 +2329,24 @@ h3.tittle {
 
 @media (max-width: 500px)
 {
-    .card:hover .pics{
+    .card .pics{
     transform: scale(0.5,0.5) translateY(-270px);
     background-size: 100% 150%;
     background-position: 0 -25px;
     transition: 1s;
     }
 
-    .card:hover .names{
+    .card .names{
         top: 120px;
         transition: 1s;
     }
 
-    .card:hover .post{
+    .card .post{
         color: #a3663c;
         transition: 1.5s;
     }
 
-    .card:hover .dividers{
+    .card .dividers{
         background-color: #949594 !important;
         transition: 1.2s;
     }
