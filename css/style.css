@@ -2363,18 +2363,21 @@ h3.tittle {
 
     .wie-res-1 {
         position: relative;
-        top: -60px;
+        top: 5px;
     }
 
     .wie-res-2 {
         position: relative;
-        top: -65px;
+        top: 25px;
     }
 
-    .wie-img-res {
+    .wie-res-3 {
         position: relative;
-        top: -50px;
+        top: 250px !important;
     }
+
+
+    
 
 }
 
