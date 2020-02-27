@@ -2352,7 +2352,63 @@ h3.tittle {
         transition: 1.2s;
     }
 
-/* Our Goal*/
-#goal-txt {
-    
+@media(max-width: 375px) {
+    .wie-res-txt {
+        position: relative;
+        top: 25px;
+    }
+    .wie-res-sub {
+        position: relative;
+        top: 35px;
+    }
+
+    .wie-res-1 {
+        position: relative;
+        top: -60px;
+    }
+
+    .wie-res-2 {
+        position: relative;
+        top: -65px;
+    }
+
+    .wie-img-res {
+        position: relative;
+        top: -50px;
+    }
+
+}
+
+@media(max-width: 411px) {
+    .wie-res-txt {
+        position: relative;
+        top: 40px;
+    }
+    .wie-res-sub {
+        position: relative;
+        top:50px;
+    }
+
+    .wie-res-3 {
+        position: relative;
+        top: 260px;
+    }
+
+}
+
+@media(max-width: 414px) {
+    .wie-res-txt {
+        position: relative;
+        top: 70px;
+    }
+    .wie-res-sub {
+        position: relative;
+        top:70px;
+    }
+
+    .wie-res-3 {
+        position: relative;
+        top: 300px;
+    }
+
 }
