@@ -2193,6 +2193,8 @@ h3.tittle {
     }
 }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 
 
 /*faculty cards*/
@@ -2349,4 +2351,31 @@ h3.tittle {
         background-color: #949594 !important;
         transition: 1.2s;
     }
+=======
+=======
+>>>>>>> ee263a3da56b38160498e13bfe38cb8676d0b293
+.wie-goal{
+    position: relative;
+    left: 6.45em;
+    font-family: 'Open Sans';
+    font-style: italic; 
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.mtts-goal {
+    position: relative;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.5em;
+
+}
+
+.mtts-bg {
+      background:#e8e8e8;
+<<<<<<< HEAD
+>>>>>>> Minor Changes
+=======
+>>>>>>> ee263a3da56b38160498e13bfe38cb8676d0b293
 }
