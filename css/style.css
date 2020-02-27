@@ -1914,7 +1914,7 @@ h3.tittle {
 }
 
 .card:hover .pic{
-    transform: scale(0.5,0.3) translateY(-650px);
+    transform: scale(0.5,0.35) translateY(-600px);
     background-size: 100% 150%;
     background-position: 0 -25px;
     border-radius: 50% !important;
@@ -2111,7 +2111,7 @@ h3.tittle {
 {
     .card .pic
     {
-        transform: scale(0.5,0.3) translateY(-650px);
+        transform: scale(0.5,0.34) translateY(-600px);
         background-size: 100% 150%;
         background-position: 0 -25px;
         border-radius: 50% !important;
@@ -2190,5 +2190,163 @@ h3.tittle {
     .ac-resp-txt {
         position: relative;
         top: -250px;
+    }
+}
+
+
+
+/*faculty cards*/
+
+.card1 .pics{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.card2 .pics{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.card3 .pics{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.card1 .names{
+    font-size: 30px;
+    font-family: "Raleway",sans-serif;
+    color: #f44336;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 315px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.card2 .names{
+    font-size: 35px;
+    font-family: "Raleway",sans-serif;
+    color: #f44336;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 315px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.card3 .names{
+    font-size: 35px;
+    font-family: "Raleway",sans-serif;
+    color: #f44336;
+    position: absolute;
+    letter-spacing: 2px;
+    top: 315px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.card .post{
+    font-size: 25px;
+    position: absolute;
+    top: 180px;
+    font-family: "Work Sans", sans-serif;
+    color: transparent;
+    transition: 0.5s;
+}
+
+.card1 .dividers{
+    background-color: transparent;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 240px;
+    transition: 0.6s;
+}
+
+.card2 .dividers{
+    background-color: transparent;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 240px;
+    transition: 0.6s;
+}
+
+.card3 .dividers{
+    background-color: transparent;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 270px;
+    transition: 0.6s;
+}
+
+.card1 .social{
+    position: absolute;
+    top: 280px;
+}
+
+.card2 .social{
+    position: absolute;
+    top: 280px;
+}
+
+.card3 .social{
+    position: absolute;
+    top: 290px;
+}
+
+
+.card:hover .pics{
+    transform: scale(0.5,0.5) translateY(-270px);
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    transition: 1s;
+}
+
+.card:hover .names{
+    top: 120px;
+    transition: 1s;
+}
+
+.card:hover .post{
+    color: #a3663c;
+    transition: 1.5s;
+}
+
+.card:hover .dividers{
+    background-color: #949594 !important;
+    transition: 1.2s;
+}
+
+
+@media (max-width: 500px)
+{
+    .card:hover .pics{
+    transform: scale(0.5,0.5) translateY(-270px);
+    background-size: 100% 150%;
+    background-position: 0 -25px;
+    transition: 1s;
+    }
+
+    .card:hover .names{
+        top: 120px;
+        transition: 1s;
+    }
+
+    .card:hover .post{
+        color: #a3663c;
+        transition: 1.5s;
+    }
+
+    .card:hover .dividers{
+        background-color: #949594 !important;
+        transition: 1.2s;
     }
 }
