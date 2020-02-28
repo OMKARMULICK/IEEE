@@ -1186,6 +1186,11 @@ ul.links li a:hover {
     margin: auto;
 }
 
+li.github a {
+    color: #fff;
+    background: #333;
+}
+
 li.facebook a {
     color: #fff;
     background: #3b5998;
