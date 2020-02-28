@@ -2264,7 +2264,7 @@ h3.tittle {
     top: 180px;
     font-family: "Work Sans", sans-serif;
     color: transparent;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .card1 .dividers{
@@ -2273,7 +2273,7 @@ h3.tittle {
     width: 50px;
     position: absolute;
     top: 240px;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .card2 .dividers{
@@ -2282,7 +2282,7 @@ h3.tittle {
     width: 50px;
     position: absolute;
     top: 240px;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .card3 .dividers{
@@ -2291,22 +2291,37 @@ h3.tittle {
     width: 50px;
     position: absolute;
     top: 270px;
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .card1 .social{
     position: absolute;
     top: 280px;
+    transition: 0.7s;
+}
+
+.card1 .social ul li a{
+    color: transparent;
 }
 
 .card2 .social{
     position: absolute;
     top: 280px;
+    transition: 0.7s;
+}
+
+.card2 .social ul li a{
+    color: transparent;
 }
 
 .card3 .social{
     position: absolute;
     top: 290px;
+    transition: 0.7s;
+}
+
+.card3 .social ul li a{
+    color: transparent;
 }
 
 
@@ -2324,11 +2339,17 @@ h3.tittle {
 
 .card:hover .post{
     color: #a3663c;
-    transition: 1.5s;
+    transition: 2s;
 }
 
 .card:hover .dividers{
     background-color: #949594 !important;
+    transition: 1.6s;
+}
+
+.card:hover .social ul li a{
+    color: #0038a4;
+    transition-delay: 0s !important;
     transition: 1.2s;
 }
 
@@ -2349,12 +2370,18 @@ h3.tittle {
 
     .card .post{
         color: #a3663c;
-        transition: 1.5s;
+        transition: 1.8s;
     }
 
     .card .dividers{
         background-color: #949594 !important;
-        transition: 1.2s;
+        transition: 1.4s;
+    }
+
+    .card .social ul li a{
+    color: #0038a4;
+    transition-delay: 0s !important;
+    transition: 1s;
     }
 }
 
