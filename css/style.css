@@ -1942,6 +1942,7 @@ h3.tittle {
     letter-spacing: 2px;
     top: 100px;
     font-weight: 600;
+    text-align: center;
 }
 
 .card1 .prof{
@@ -2003,6 +2004,7 @@ h3.tittle {
     letter-spacing: 2px;
     top: 105px;
     font-weight: 600;
+    text-align: center;
 }
 
 .card2 .prof{
@@ -2066,6 +2068,7 @@ h3.tittle {
     letter-spacing: 2px;
     top: 100px;
     font-weight: 600;
+    text-align: center;
 }
 
 .card3 .prof{
@@ -2234,6 +2237,7 @@ h3.tittle {
     top: 315px;
     font-weight: 600;
     transition: 1s;
+    text-align: center;
 }
 
 .card2 .names{
@@ -2245,6 +2249,7 @@ h3.tittle {
     top: 315px;
     font-weight: 600;
     transition: 1s;
+    text-align: center;
 }
 
 .card3 .names{
@@ -2256,6 +2261,7 @@ h3.tittle {
     top: 315px;
     font-weight: 600;
     transition: 1s;
+    text-align: center;
 }
 
 .card .post{
@@ -2265,6 +2271,7 @@ h3.tittle {
     font-family: "Work Sans", sans-serif;
     color: transparent;
     transition: 0.3s;
+    text-align: center;
 }
 
 .card1 .dividers{
